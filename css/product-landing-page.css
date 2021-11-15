@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+nav{
+    background-color: #8b008b;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    /*top&bottom (0px) left&right (10px)*/
+    margin: 0 15px;
+}
+
+/*changes the position of the logo from right to left
+- default order is 0*/
+.image{
+    order: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.container{
+    display: flex;
+    max-width: 700px;
+    /*centers the container content*/
+    margin: 0 auto;
+}
+.about{
+    width: 80%;
+    margin: 60px;
+}
+
+.sub-heading{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.video1{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+/*Learning Styles*/
+
+.learning{
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0,0,0.1);
+    width: 50%;
+    text-align: center;
+    margin: 5px;
+    border: solid;
+    padding: 10px 10px;
+    background-color: #dda0dd;
+}
+
+.learning h2{
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: black;
+    text-decoration: underline;
+}
+
+.learning p{
+    font-size: 12px;
+    color: black;
+    line-height: 20px;
+}
+
+/******Sign up banner********/
+.sign-up {
+
+    padding: 40px;
+    background-color: #8b008b;
+    color: white;
+
+    margin: 50px;
+}
+
+/***********Form************/
+.container-join input{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+form input{
+    border-radius: 4px;
+    display: inline-flex;
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+}
+

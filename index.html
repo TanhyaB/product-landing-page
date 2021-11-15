@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" type="text/css" href="css/product-landing-page.css">
+    <title>Product Landing Page</title>
+    <style>
+     @media only screen and (max-width: 480px) {
+    .container, .learning, .learning h2, .learning p {
+    width: 100%;
+    }
+}
+
+    </style>
+
+</head>
+<body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<header id="header">
+    <nav id="nav-bar">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#learning-styles">Learning Styles</a>
+        <a class="nav-link" href="#watch-video">Video</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <div class="about">
+                <h1>All About Learning Styles</h1>
+                <p>It's tempting to try to pin down one "perfect" way of learning. But it can also be dangerous.
+                    Everyone's approach to learning is based on a complex mix of strengths and preferences.
+                    And we absorb and apply new concepts, skills and information in different ways at different times.
+                </p>
+            </div>
+        </section>
+        <div class="image">
+            <img id="header-img" src="https://statamic.com/storage/avatars/4d-mind.png" alt="">
+        </div>
+    </div>
+</header>
+
+<section id="watch-video">
+<div class="video1">
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/_IopcOwfsoU"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+</div>
+</section>
+<div>
+    <h2 class="sub-heading">The Four Main Learning Styles</h2>
+</div>
+
+
+<section id="learning-styles">
+    <div class="container">
+        <div class="learning">
+            <h2>Visual</h2>
+            <p>Visual learners are individuals who prefer to
+                take in their information visually—be that with
+                maps, graphs, diagrams, charts, and others.
+                However, they don’t necessarily respond well
+                to photos or videos, rather needing their information
+                using different visual aids such as patterns and shapes.</p>
+        </div>
+        <div class="learning">
+            <h2>Auditory</h2>
+            <p>Auditory learners are individuals who learn better when they take in information in auditory form when it
+                is heard or spoken. They are prone to sorting their ideas after speaking, rather than thinking ideas
+                through before. Since, to them, saying things out loud helps them understand the concept.</p>
+        </div>
+        <div class="learning">
+            <h2>Kinesthetic</h2>
+            <p>Kinesthetic learners are individuals who prefer to learn by doing. They enjoy a hands-on experience. They
+                are usually more in touch with reality and more connected to it, which is why they require using tactile
+                experience to understand something better.</p>
+        </div>
+        <div class="learning">
+            <h2>Reading/Writing</h2>
+            <p>Reading and writing learners consume information best when it’s in words, whether that’s by writing it
+                down or reading it. To them, text is more powerful than any kind of visual or auditory representation of
+                an idea. These individuals usually perform very well on written assignments.</p>
+        </div>
+    </div>
+</section>
+
+<section id="join">
+    <div class="container-join">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <center><h2 class="sign-up">Sign up to find out more information about your learning style!</h2></center>
+            <input id="email" type="email" name="email" placeholder="Enter your email...">
+            <input id="submit" type="submit" value="submit">
+        </form>
+    </div>
+</section>
+
+</body>
+</html>
